@@ -61,7 +61,6 @@ public class AndriodTest {
 		AppiumHelper.waitForElementVisible(driver,el3);
 		AppiumHelper.clearTextField(driver,el3);
 		el3.sendKeys("Singapore Appium Meetup");
-
 		Assert.assertEquals("Singapore Appium Meetup",el3.getAttribute("text"));
 
 	}
