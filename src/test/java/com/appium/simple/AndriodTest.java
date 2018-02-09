@@ -20,7 +20,7 @@ import java.net.URL;
  */
 public class AndriodTest {
 	AppiumDriver driver;
-	AppiumDriverLocalService appiumDriverLocalService;
+	//AppiumDriverLocalService appiumDriverLocalService;
 
 	@Before
 	public void setUp() throws MalformedURLException {

@@ -21,7 +21,7 @@ import java.net.URL;
  */
 public class IOSTest {
     AppiumDriver<MobileElement> driver;
-    AppiumDriverLocalService appiumDriverLocalService;
+    //AppiumDriverLocalService appiumDriverLocalService;
 
     @Before
     public void setUp() throws MalformedURLException {
